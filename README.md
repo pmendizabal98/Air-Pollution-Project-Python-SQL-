@@ -4,7 +4,7 @@ This repository contains an academic project focused on analyzing air quality da
 
 ## Overview
 
-Using Python scripts,  the dataset was cropped to reduce its size, followed by a thorough cleaning process. Subsequently, a Python script was employed to populate the cleaned dataset into a database.
+Using Python scripts,  the dataset was cropped to reduce its size (crop.py), followed by a thorough cleaning process (clean.py). Subsequently, a Python script was employed to populate the cleaned dataset into a database. (populate.py)
 
 ## SQL Queries
 
