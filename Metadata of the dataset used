@@ -1,0 +1,30 @@
+#A ir Quality Data
+
+Each line represents one reading from a specific detector. Detectors take one reading every hour. 
+There are 23 data items (columns) per line.
+
+The schema is given below:
+measure 	desc 	unit
+Date Time 	Date and time of measurement 	datetime
+NOx 	Concentration of oxides of nitrogen 	㎍/m3
+NO2 	Concentration of nitrogen dioxide 	㎍/m3
+NO 	Concentration of nitric oxide 	㎍/m3
+SiteID 	Site ID for the station 	integer
+PM10 	Concentration of particulate matter <10 micron diameter 	㎍/m3
+NVPM10 	Concentration of non - volatile particulate matter <10 micron diameter 	㎍/m3
+VPM10 	Concentration of volatile particulate matter <10 micron diameter 	㎍/m3
+NVPM2.5 	Concentration of non volatile particulate matter <2.5 micron diameter 	㎍/m3
+PM2.5 	Concentration of particulate matter <2.5 micron diameter 	㎍/m3
+VPM2.5 	Concentration of volatile particulate matter <2.5 micron diameter 	㎍/m3
+CO 	Concentration of carbon monoxide 	㎎/m3
+O3 	Concentration of ozone 	㎍/m3
+SO2 	Concentration of sulphur dioxide 	㎍/m3
+Temperature 	Air temperature 	°C
+RH 	Relative Humidity 	%
+Air Pressure 	Air Pressure 	mbar
+Location 	Text description of location 	text
+geo_point_2d 	Latitude and longitude 	geo point
+DateStart 	The date monitoring started 	datetime
+DateEnd 	The date monitoring ended 	datetime
+Current 	Is the monitor currently operating 	text
+Instrument Type 	Classification of the instrument 	text
